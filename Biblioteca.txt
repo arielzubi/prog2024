@@ -1,0 +1,28 @@
+proyecto: biblioteca
+
+base de datos: biblioteca
+tablas: 
+	Libro
+		idlibro		idLibro		txt_Id_Libro		btn_Agregar_Libro
+		titulolibro		tituloLibro	txt_Titulo_Libro		btn_Modificar_Libro
+		idautor		idAutor		cmb_Autor		btn_Borrar_Libro	
+		ideditorial		idEditorial		cmb_Editorial		btn_Limpiar_Libro
+		idgenero		idGenero		cmb_Genero		tb_Libro
+	Autor
+		idautor		idAutor		txt_Id_Autor		btn_Agregar_Autor
+		nombreautor	nombreAutor	txt_Nombre_Autor		btn_Modificar_Autor
+									btn_Borrar_Autor
+									btn_Limpiar_Autor
+									tb_Autor
+	Editorial
+		ideditorial		idEditorial		txt_Id_Editorial		btn_Agregar_Editorial	
+		nombreeditorial	nombreEditorial	txt_Nombre_Editorial	btn_Modificar_Editorial
+									btn_Borrar_Editorial
+									btn_Limpiar_Editorial
+									tb_Editorial
+	Genero
+		idgenero		idGenero		txt_Id_Genero		btn_Agregar_Genero
+		nombregenero	nombreGenero	txt_Nombre_Genero		btn_Modificar_Genero
+									btn_Borrar_Genero
+									btn_Limpiar_Genero
+									tb_Genero
